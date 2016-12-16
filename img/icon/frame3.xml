@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list   xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true" >
+
+    <item
+        android:drawable="@drawable/bike01"
+        android:duration="50"/>
+
+    <item
+        android:drawable="@drawable/bike03"
+        android:duration="50"/>
+
+    <item
+        android:drawable="@drawable/bike05"
+        android:duration="50"/>
+
+    <item
+        android:drawable="@drawable/bike07"
+        android:duration="50"/>
+    <item
+        android:drawable="@drawable/bike09"
+        android:duration="50"/>
+
+    <item
+        android:drawable="@drawable/bike11"
+        android:duration="50"/>
+
+    <item
+        android:drawable="@drawable/bike13"
+        android:duration="50"/>
+
+    <item
+        android:drawable="@drawable/bike15"
+        android:duration="50"/>
+
+
+    <item
+        android:drawable="@drawable/bike17"
+        android:duration="50"/>
+
+    <item
+        android:drawable="@drawable/bike19"
+        android:duration="50"/>
+
+    <item
+        android:drawable="@drawable/bike21"
+        android:duration="50"/>
+
+    <item
+        android:drawable="@drawable/bike23"
+        android:duration="50"/>
+
+    <item
+        android:drawable="@drawable/bike25"
+        android:duration="50"/>
+
+
+
+
+</animation-list>

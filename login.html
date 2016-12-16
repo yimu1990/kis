@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="MSUI: Build mobile apps with simple HTML, CSS, and JS components.">
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="format-detection" content="telephone=no">
+		<link rel="stylesheet" href="css/sm.css">
+		<link rel="stylesheet" href="css/demos.css">
+		<title>登录</title>
+	</head>
+	<style type="text/css">
+		a {
+			font-size: 14px;
+		}
+		
+		.bg {
+			margin: -1% -1%;
+			width: 102%;
+			height: 102%;
+			background-image: url(img/login-bg.png);
+			background-repeat: no-repeat;
+			background-size: cover;
+			/*-webkit-filter: blur(2px);
+			-ms-filter: blur(5px);
+            filter: blur(5px);*/
+		}
+		
+		.list-block {
+			margin-top: 40%;
+		}
+		
+		.list-block ul {
+			background: none;
+		}
+		
+		.list-block li {
+			/*background-color: rgba(225,225,225,0.4);*/
+			background-color: rgba(0, 0, 0, 0.4);
+		}
+		
+		.list-block input[type="text"]
+		,.list-block input[type="password"]
+		 {
+			font-size: 0.8rem !important;
+			text-align: center;
+			color: white;
+		}
+		
+		.list-block input[type="text"]::-webkit-input-placeholder
+		,.list-block input[type="password"]::-webkit-input-placeholder
+		{
+			color: white
+		}
+		
+		.button {
+			font-size: 0.8rem;
+		}
+	</style>
+
+	<body>
+		<div class="page-group">
+			<div id="page-label-input" class="page">
+				<div class="bg"></div>
+				<div class="content">
+					<div class="list-block">
+						<ul>
+							<li>
+								<div class="item-content">
+									<div class="item-inner">
+										<div class="item-input">
+											<input type="text" placeholder="手机号码">
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="item-content">
+									<div class="item-inner">
+										<div class="item-input">
+											<input type="password" placeholder="密码">
+										</div>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+
+					<div class="content-block">
+						<div class="row">
+							<div class="col-100">
+								<p>
+									<a class="button button-fill">登录 </a>
+								</p>
+								<a style="color: white;">忘记密码</a>
+								<a style="float: right;color: white;">注册</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+	</body>
+	<script src="js/zepto.js"></script>
+	<script src="js/config.js"></script>
+	<script src="js/sm.js"></script>
+</html>
