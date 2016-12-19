@@ -1,0 +1,139 @@
+/*login.html*/
+
+.login a {
+	font-size: 14px;
+}
+
+.login .bg {
+	margin: -1% -1%;
+	width: 102%;
+	height: 102%;
+	background-image: url(../img/login-bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*-webkit-filter: blur(2px);
+			-ms-filter: blur(5px);
+            filter: blur(5px);*/
+}
+
+.login .list-block {
+	margin-top: 40%;
+}
+
+.login .list-block ul {
+	background: none;
+}
+
+.login .list-block li {
+	/*background-color: rgba(225,225,225,0.4);*/
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+.login .list-block input[type="text"],
+.login .list-block input[type="password"] {
+	font-size: 0.8rem !important;
+	text-align: center;
+	color: white;
+}
+
+.login .list-block input[type="text"]::-webkit-input-placeholder,
+.login .list-block input[type="password"]::-webkit-input-placeholder {
+	color: white
+}
+
+.login .button {
+	font-size: 0.8rem;
+}
+
+
+/*home.html*/
+
+.home a {
+	color: white;
+}
+
+.home .bar:after {
+	height: 0;
+}
+
+.home .bar-tab:before {
+	height: 0;
+}
+
+.home .title {
+	color: white;
+}
+
+.home .bar-nav {
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+.home .bg {
+	margin: -1% -1%;
+	width: 102%;
+	height: 102%;
+	background-image: url(../img/login-bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*-webkit-filter: blur(2px);
+				-ms-filter: blur(5px);
+	            filter: blur(5px);*/
+}
+
+.home .grid-title {
+	font-size: 14px;
+	margin: -1px -1px;
+	padding: 6px 11px;
+	color: black;
+	background-color: rgba(225, 225, 225, 0.8);
+}
+
+.home .no-gutter {
+	margin-top: 15px;
+	/*border-top:  1px solid #c0c0c0;*/
+	border-radius: 10px;
+	background-color: rgba(225, 225, 225, 0.8);
+}
+
+.home .grid-9 {
+	display: block;
+	text-align: center;
+	width: 25%;
+	float: left;
+	padding: 2px 0;
+}
+
+.home .grid-9 img {
+	width: 50%;
+}
+
+.home .grid-9 p {
+	margin: 0px 0;
+	font-size: 12px;
+	color: black;
+}
+
+.home .bar-tab {
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.home .content-block-title {
+	margin: 0 0;
+	padding: 5px;
+	background-color: lightgray;
+}
+
+.home .list-block ul {
+	background-color: rgba(225, 225, 225, 0.9);
+}
+
+.home .list-block .item-content {
+	min-height: 1.5rem;
+	height: 1.8rem;
+}
+
+.home .list-block .item-inner {
+	font-size: 16px;
+	min-height: 1.8rem;
+	height: 1.8rem;
+}

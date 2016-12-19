@@ -13,100 +13,12 @@
 			<meta name="format-detection" content="telephone=no">
 			<link rel="stylesheet" href="css/sm.css">
 			<link rel="stylesheet" href="css/sm-extend.css">
+			<link rel="stylesheet" href="css/app.css">
 			<title>主页</title>
 		</head>
-		<style type="text/css">
-			a {
-				color: white;
-			}
-			.bar:after {
-				height: 0;
-			}
-			
-			.bar-tab:before {
-				height: 0;
-			}
-			
-			.title {
-				color: white;
-			}
-			
-			.bar-nav {
-				background-color: rgba(0, 0, 0, 0.7);
-			}
-			
-			.bg {
-				margin: -1% -1%;
-				width: 102%;
-				height: 102%;
-				background-image: url(img/login-bg.png);
-				background-repeat: no-repeat;
-				background-size: cover;
-				/*-webkit-filter: blur(2px);
-				-ms-filter: blur(5px);
-	            filter: blur(5px);*/
-			}
-			.grid-title {
-				font-size: 14px;
-				margin: -1px -1px;
-				padding: 6px 11px;
-				color: black;
-				background-color: rgba(225, 225, 225, 0.8);
-			}
-			.no-gutter {
-				margin-top: 15px;
-				/*border-top:  1px solid #c0c0c0;*/
-				border-radius: 10px;
-				background-color: rgba(225, 225, 225, 0.8);
-			}
-			
-			.grid-9 {
-				display: block;
-				text-align: center;
-				width: 25%;
-				float: left;
-				padding: 2px 0;
-			}
-			
-			.grid-9 img {
-				width: 50%;
-			}
-			
-			.grid-9 p {
-				margin: 0px 0;
-				font-size: 12px;
-				color: black;
-			}
-			
-			.bar-tab {
-				background-color: rgba(0, 0, 0, 0.6);
-			}
-			
-			.content-block-title {
-				margin: 0 0;
-				padding: 5px;
-				background-color: lightgray;
-			}
-			
-			.list-block ul {
-				background-color: rgba(225, 225, 225, 0.9);
-			}
-			
-			.list-block .item-content {
-				min-height: 1.5rem;
-				height: 1.8rem;
-			}
-			
-			.list-block .item-inner {
-				font-size: 16px;
-				min-height: 1.8rem;
-				height: 1.8rem;
-			}
-		</style>
-
 		<body>
-			<div id="a" class="page-group ">
-				<div id="page-swiper" class="page">
+			<div class="page-group ">
+				<div id="page-swiper" class="page home">
 					<header class="bar bar-nav">
 						<a class="icon icon-home pull-left open-panel" data-panel=".panel-left"></a>
 						<!--<a class="button button-link button-nav pull-right open-popup" data-popup=".popup-about">
@@ -130,7 +42,7 @@
 						<span class="icon icon-settings"></span>
 						<span class="tab-label">设置</span>
 					</a>-->
-						<a class="tab-item external " href="#">
+						<a class="tab-item external " href="setting.html">
 							<span class="icon icon-me"></span>
 							<span class="tab-label">我的</span>
 						</a>
@@ -258,6 +170,4 @@
 		<script src="js/config.js"></script>
 		<script src="js/sm.js"></script>
 		<script src="js/sm-extend.js"></script>
-		<script src="js/demos.js"></script>
-
 </html>
