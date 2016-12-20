@@ -10,12 +10,13 @@
 		<meta name="apple-mobile-web-app-status-bar-style" content="black">
 		<meta name="format-detection" content="telephone=no">
 		<link rel="stylesheet" href="css/sm.css">
+		<link rel="stylesheet" href="css/sm-extend.css">
 		<link rel="stylesheet" href="css/app.css">
-		<title>登录</title>
 	</head>
+
 	<body>
 		<div class="page-group">
-			<div id="page-label-input" class="page login">
+			<div id="page-login" class="page login">
 				<div class="bg"></div>
 				<div class="content ">
 					<div class="list-block">
@@ -45,7 +46,7 @@
 						<div class="row">
 							<div class="col-100">
 								<p>
-									<a id="loginBtn"  class="button button-fill" >登录 </a>
+									<a id="loginBtn" class="button button-fill">登录 </a>
 								</p>
 								<a style="color: white;">忘记密码</a>
 								<a style="float: right;color: white;">注册</a>
@@ -58,10 +59,6 @@
 	<script src="js/zepto.js"></script>
 	<script src="js/config.js"></script>
 	<script src="js/sm.js"></script>
-	<script type="text/javascript">
-		$('#loginBtn').click(function(){
-			$.router.load("home.html");
-			//alert(123);
-		});
-	</script>
+	<script src="js/sm-extend.js"></script>
+	<script src="js/demos.js"></script>
 </html>

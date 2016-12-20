@@ -137,3 +137,58 @@
 	min-height: 1.8rem;
 	height: 1.8rem;
 }
+
+
+/*mine.html*/
+
+.mine a {
+	color: white;
+}
+
+.mine .bar-nav {
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+.mine .bg {
+	margin: -1% -1%;
+	width: 102%;
+	height: 102%;
+	background-image: url(../img/login-bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*-webkit-filter: blur(2px);
+				-ms-filter: blur(5px);
+	            filter: blur(5px);*/
+}
+
+.mine .bar-tab {
+	background-color: rgba(0, 0, 0, 0.9);
+}
+
+
+.mine .person-bj{
+	background-image: url(../img/icon/huiyuan_bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 30%;
+	padding-top: 20%;
+	padding-left: 50%;
+}
+
+.mine .person-bj img{
+	width: 100px;
+	height: 100px;
+	margin-top: -50px;
+	margin-left: -50px;
+}
+
+.mine .list-block .item-content {
+	min-height: 1.5rem;
+	height: 1.8rem;
+}
+
+.mine .list-block .item-inner {
+	font-size: 16px;
+	min-height: 1.8rem;
+	height: 1.8rem;
+}

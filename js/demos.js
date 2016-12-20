@@ -346,6 +346,18 @@ $(function () {
         //value: ['四川', '内江', '东兴区']
     });
   });
+  
+  
+  $(document).on("pageInit", "#page-login", function(e) {
+    $('#loginBtn').click(function(){
+			$.router.load("home.html");
+			//alert(123);
+		});
+  });
+  
+  
 
   $.init();
+  
+ 
 });

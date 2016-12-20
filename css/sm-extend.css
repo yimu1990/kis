@@ -479,16 +479,17 @@ body > .photo-browser .toolbar {
   opacity: 0;
 }
 .swiper-pagination-bullet {
-  width: 8px;
-  height: 8px;
+  width: 10px;
+  height: 3px;
   display: inline-block;
-  border-radius: 100%;
-  background: #000;
+ /* border-radius: 100%;*/
+  background: rgba(0,0,0,0.8);
   opacity: 0.2;
 }
 .swiper-pagination-bullet-active {
   opacity: 1;
-  background: #007aff;
+ /* background: #007aff;*/
+  background: white;
 }
 .swiper-container-vertical > .swiper-pagination {
   right: 10px;
@@ -501,7 +502,7 @@ body > .photo-browser .toolbar {
   display: block;
 }
 .swiper-container-horizontal > .swiper-pagination {
-  bottom: 10px;
+  bottom: 0;
   left: 0;
   width: 100%;
 }

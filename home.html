@@ -1,8 +1,5 @@
 <!DOCTYPE html>
 <html>
-
-	<head>
-
 		<head>
 			<meta charset="UTF-8">
 			<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,16 +11,15 @@
 			<link rel="stylesheet" href="css/sm.css">
 			<link rel="stylesheet" href="css/sm-extend.css">
 			<link rel="stylesheet" href="css/app.css">
-			<title>主页</title>
 		</head>
+
 		<body>
 			<div class="page-group ">
-				<div id="page-swiper" class="page home">
+				<div id="page-home" class="page home">
 					<header class="bar bar-nav">
-						<a class="icon icon-home pull-left open-panel" data-panel=".panel-left"></a>
-						<!--<a class="button button-link button-nav pull-right open-popup" data-popup=".popup-about">
-							<span class="icon icon-menu" style="color: white;" ></span>
-						</a>-->
+						<!--<a class="icon icon-home pull-left open-panel" data-panel=".panel-left"></a>-->
+						<a class="icon icon-home pull-left open-popup" data-popup=".popup-about">
+						</a>
 					</header>
 					<nav class="bar bar-tab">
 						<a class="tab-item external active" href="#">
@@ -42,132 +38,240 @@
 						<span class="icon icon-settings"></span>
 						<span class="tab-label">设置</span>
 					</a>-->
-						<a class="tab-item external " href="setting.html">
+						<a class="tab-item external " href="mine.html">
 							<span class="icon icon-me"></span>
 							<span class="tab-label">我的</span>
 						</a>
 					</nav>
 					<div class="bg"></div>
 					<div class="content">
-						<div class="swiper-container" data-space-between='10' style="padding-bottom: 0;display: none;">
+						<!--<div class="swiper-container" data-space-between='10' style="padding-bottom: 0;display: block;" >
 							<div class="swiper-wrapper">
 								<div class="swiper-slide"><img src="http://gqianniu.alicdn.com/bao/uploaded/i4//tfscom/i1/TB1n3rZHFXXXXX9XFXXXXXXXXXX_!!0-item_pic.jpg_640x640q60.jpg" alt="" style='width: 100%;'></div>
 								<div class="swiper-slide"><img src="http://gqianniu.alicdn.com/bao/uploaded/i4//tfscom/i4/TB10rkPGVXXXXXGapXXXXXXXXXX_!!0-item_pic.jpg_640x640q60.jpg" alt="" style='width: 100%;'></div>
 								<div class="swiper-slide"><img src="http://gqianniu.alicdn.com/bao/uploaded/i4//tfscom/i1/TB1kQI3HpXXXXbSXFXXXXXXXXXX_!!0-item_pic.jpg_640x640q60.jpg" alt="" style='width: 100%;'></div>
 							</div>
 							<div class="swiper-pagination"></div>
-						</div>
+						</div>-->
 						<div class="list-block" style="margin: 0 0;">
 							<div class="content-block-title">
-								<a>
-									<div style="float: right;color: #6d6d72;">更多 &gt;</div>
-								</a>
 								<div>待办事项</div>
 							</div>
-							<ul>
-								<li class="item-content">
-									<div class="item-inner">
-										<div class="item-title">标题</div>
+							<div class="swiper-container" data-space-between='10' style="padding-bottom: 0;display: block;">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide">
+										<ul>
+											<li class="item-content">
+												<div class="item-inner">
+													<div class="item-title">标题</div>
+												</div>
+											</li>
+											<li class="item-content">
+												<div class="item-inner">
+													<div class="item-title">标题</div>
+												</div>
+											</li>
+											<li class="item-content">
+												<div class="item-inner">
+													<div class="item-title">标题</div>
+												</div>
+											</li>
+											<li class="item-content">
+												<div class="item-inner">
+													<div class="item-title">标题</div>
+												</div>
+											</li>
+										</ul>
 									</div>
-								</li>
-								<li class="item-content">
-									<div class="item-inner">
-										<div class="item-title">标题</div>
+									<div class="swiper-slide">
+										<ul>
+											<li class="item-content">
+												<div class="item-inner">
+													<div class="item-title">标题</div>
+												</div>
+											</li>
+											<li class="item-content">
+												<div class="item-inner">
+													<div class="item-title">标题</div>
+												</div>
+											</li>
+											<li class="item-content">
+												<div class="item-inner">
+													<div class="item-title">标题</div>
+												</div>
+											</li>
+											<li class="item-content">
+												<div class="item-inner">
+												</div>
+											</li>
+										</ul>
 									</div>
-								</li>
-								<li class="item-content">
-									<div class="item-inner">
-										<div class="item-title">标题</div>
-									</div>
-								</li>
-								<li class="item-content">
-									<div class="item-inner">
-										<div class="item-title">标题</div>
-									</div>
-								</li>
-							</ul>
+								</div>
+								<div class="swiper-pagination"></div>
+							</div>
 						</div>
 						<div class="content-padded ">
 							<div class="row no-gutter">
 								<p class="grid-title">客户信息</p>
 								<a class="grid-9">
 									<img src="img/icon/balance_img.png">
-									<p>个人信息</p>
+									<p>基本信息</p>
 								</a>
 								<a class="grid-9">
 									<img src="img/icon/balance_img.png">
-									<p>个人信息</p>
+									<p>销售报表</p>
 								</a>
 								<a class="grid-9">
 									<img src="img/icon/balance_img.png">
-									<p>个人信息</p>
+									<p>对账单</p>
 								</a>
 								<a class="grid-9">
 									<img src="img/icon/balance_img.png">
-									<p>个人信息</p>
+									<p>发货情况</p>
 								</a>
 								<a class="grid-9">
 									<img src="img/icon/balance_img.png">
-									<p>个人信息</p>
+									<p>物流信息</p>
+								</a>
+							</div>
+							<div class="row no-gutter">
+								<p class="grid-title">评论与留言</p>
+								<a class="grid-9">
+									<img src="img/icon/balance_img.png">
+									<p>客户自评</p>
 								</a>
 								<a class="grid-9">
 									<img src="img/icon/balance_img.png">
-									<p>个人信息</p>
+									<p>回访评价</p>
+								</a>
+								<a class="grid-9">
+									<img src="img/icon/balance_img.png">
+									<p>投诉建议</p>
 								</a>
 							</div>
 							<div class="row no-gutter">
 								<p class="grid-title">仓库信息</p>
 								<a class="grid-9">
 									<img src="img/icon/balance_img.png">
-									<p>个人信息</p>
+									<p>仓库查询</p>
 								</a>
 								<a class="grid-9">
 									<img src="img/icon/balance_img.png">
-									<p>个人信息</p>
+									<p>总库存</p>
 								</a>
 								<a class="grid-9">
 									<img src="img/icon/balance_img.png">
-									<p>个人信息</p>
-								</a>
-								<a class="grid-9">
-									<img src="img/icon/balance_img.png">
-									<p>个人信息</p>
-								</a>
-								<a class="grid-9">
-									<img src="img/icon/balance_img.png">
-									<p>个人信息</p>
+									<p>客户库存</p>
 								</a>
 							</div>
 							<div class="row no-gutter">
-								<p class="grid-title">仓库信息</p>
+								<p class="grid-title">移动OA</p>
 								<a class="grid-9">
 									<img src="img/icon/balance_img.png">
-									<p>个人信息</p>
+									<p>签到打卡</p>
 								</a>
 								<a class="grid-9">
 									<img src="img/icon/balance_img.png">
-									<p>个人信息</p>
+									<p>签呈</p>
 								</a>
 								<a class="grid-9">
 									<img src="img/icon/balance_img.png">
-									<p>个人信息</p>
+									<p>审批</p>
+								</a>
+							</div>
+							<div class="row no-gutter">
+								<p class="grid-title">生产进度</p>
+								<a class="grid-9">
+									<img src="img/icon/balance_img.png">
+									<p>实际生产情况</p>
 								</a>
 								<a class="grid-9">
 									<img src="img/icon/balance_img.png">
-									<p>个人信息</p>
+									<p>订单差异分析表</p>
+								</a>
+							</div>
+							<div class="row no-gutter">
+								<p class="grid-title">订单查询</p>
+								<a class="grid-9">
+									<img src="img/icon/balance_img.png">
+									<p>客户订单</p>
 								</a>
 								<a class="grid-9">
 									<img src="img/icon/balance_img.png">
-									<p>个人信息</p>
+									<p>订单分析</p>
+								</a>
+								<a class="grid-9">
+									<img src="img/icon/balance_img.png">
+									<p>订货会信息汇总</p>
+								</a>
+							</div>
+							<div class="row no-gutter">
+								<p class="grid-title">扫一扫</p>
+								<a class="grid-9">
+									<img src="img/icon/balance_img.png">
+									<p>查询</p>
+								</a>
+								<a class="grid-9">
+									<img src="img/icon/balance_img.png">
+									<p>销售</p>
+								</a>
+								<a class="grid-9">
+									<img src="img/icon/balance_img.png">
+									<p>退换货</p>
+								</a>
+							</div>
+							<div class="row no-gutter">
+								<p class="grid-title">下订单</p>
+								<a class="grid-9">
+									<img src="img/icon/balance_img.png">
+									<p>手动下单</p>
+								</a>
+								<a class="grid-9">
+									<img src="img/icon/balance_img.png">
+									<p>扫码下单</p>
+								</a>
+								<a class="grid-9">
+									<img src="img/icon/balance_img.png">
+									<p>订货会信息申报</p>
 								</a>
 							</div>
 						</div>
 					</div>
 				</div>
+				<div class="popup popup-about">
+					<header class="bar bar-nav">
+						<a class="button button-link button-nav pull-right close-popup">
+							关闭
+						</a>
+						<h1 class="title">公司</h1>
+					</header>
+					<div class="content">
+						<div class="content-inner">
+							<div class="content-block">
+								<p>SUI Mobile 是阿里巴巴共享业务事业部SDC团队（UED）提供的一套手机UI库。</p>
+								<p>我们的目的是为手机千牛、百川以及任何手机端的H5页面提供标准的设计规范和前端实现。</p>
+								<p>SUI Mobile并没有重新发明轮子，我们主要参考了
+									<a href='http://goratchet.com' external target='_blank'>ratchet</a> 和
+									<a href='http://framework7.taobao.org/' external target='_blank'>Framework7</a>
+								</p>
+								<p>这里只是一个官方示例，详细文档请参考：
+									<a href='http://m.sui.taobao.org/' external target='_blank'>http://m.sui.taobao.org/</a>
+								</p>
+								<p></p>
+								<p>
+									<a class="button close-popup">确定</a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
+			
 		</body>
 		<script src="js/zepto.js"></script>
 		<script src="js/config.js"></script>
 		<script src="js/sm.js"></script>
 		<script src="js/sm-extend.js"></script>
+		<script src="js/demos.js"></script>
+
 </html>
